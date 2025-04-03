@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+background-color: #F2F4F7;
+    height: 100vh;
+    display: flex;
+    align-items:center;
+}
+main{
+    display: flex;
+    justify-content: flex-end;
+}
+
+form{
+    background-color: white;
+    flex-direction: column;
+    padding: 50px;
+    margin-right: 180px;
+    margin-top: 50px;
+    box-shadow: 0 0 10px rgba(37, 36, 36, 0.3);
+    border-radius: 7px;
+}
+hr{
+    margin: 20px 0 ;
+    opacity: 0.3;
+}
+.div2{
+    display: block;
+    justify-content: space-between;
+}
+input{
+    margin-bottom: 15px;
+    position: relative;
+    
+    width: 280px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid rgb(172, 171, 171);
+}
+#identifiant:focus{
+    outline-offset: 2px;
+    border: 2px;
+    border-color: rgb(27, 27, 27);
+}
+#pwd:focus{
+    outline: none;
+    border-color: blue;
+}
+    
+.btn1{
+    background-color: #0872fd;
+    color: #ffffff;
+   margin: 1O px;
+   width: 100%;
+   padding: 10px;
+   border: none;
+   font-size: 20px;
+   border-radius: 5px;
+   font-weight: bold;
+   cursor: pointer;
+}
+.btn1:hover{
+    background-color: #2e7ce2;
+}
+a{
+    text-decoration: none;
+}
+.lien{
+    
+    padding-left: 90px;
+    font-size: 15px;
+    font-family: helvetica, sans-serif ;
+    color: #1b6fdd;
+}
+.lien:hover{
+    text-decoration: underline;
+}
+
+.btn2{
+    background-color:#39bb1f ;
+    width: 70%;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    padding: 15px;
+    margin: 10px 50px;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: #36A420;
+}
+h4{
+    font-size: 14px;
+    font-family: helvetica, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    margin-right: 190px;
+}
+h4>a{
+    color: black;
+    font-weight: bold;
+}
+
+.bro{
+    padding: 195px 100px;
+    padding-bottom: 25%;
+    margin-left: 55px;
+    position: relative;
+
+}
+h1{
+    font-size: 27px;
+    font-family: helvetica, arial, sans-serif;
+    font-weight: 400;
+    
+}
+img{
+    width: 50%;
+    height: 45px;
+}
+
+
+
+.liens a:hover{
+    text-decoration: underline;
+}
+footer{
+    width: 100px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    font-size: 12px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(115, 115, 115);
+}
