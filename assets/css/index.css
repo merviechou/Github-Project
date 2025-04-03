@@ -1,6 +1,7 @@
 h1{
     text-transform: uppercase;
-}
-body{
     color: aqua;
+}
+.item{
+    color: blue
 } 
